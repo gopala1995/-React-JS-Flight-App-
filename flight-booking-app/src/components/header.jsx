@@ -3,6 +3,7 @@ import flightImage from "../assets/flightImages.jpeg";
 import { NavBar } from "./navbar";
 import { ButtonYellow } from "./ButtonYellow";
 import { FlightBookingForm } from "./Booking-comp";
+import { FlightTable } from "./flightTable";
 
 export const Header = () => {
   return (
@@ -33,7 +34,8 @@ export const Header = () => {
           </div>
         </div>
         <div className="flex">
-          <FlightBookingForm />
+          {/* <FlightBookingForm /> */}
+          <FlightTable/>
         </div>
       </div>
     </div>

@@ -1,5 +1,8 @@
 import React from "react";
 import { IoIosAirplane } from "react-icons/io";
+import { CiLocationOn, CiCalendarDate } from "react-icons/ci";
+import { IoFlowerSharp, IoCallOutline } from "react-icons/io5";
+import { MdOutlineMail } from "react-icons/md";
 import { ButtonYellow } from "./ButtonYellow";
 import { InputTextComp } from "./InputText";
 
@@ -40,33 +43,28 @@ export const FlightBookingForm = () => {
           label="Departure"
         />
         <InputTextComp
-          image={<IoIosAirplane />}
-          placeholder={"Enter City"}
-          label="Departure"
+          image={<CiLocationOn />}
+          placeholder={"Enter Arrivals"}
+          label="Arrivals"
           extraStyle={"mt-2"}
         />
         <InputTextComp
-          image={<IoIosAirplane />}
-          placeholder={"Enter City"}
-          label="Departure"
+          image={<CiCalendarDate />}
+          placeholder={"Enter Calender"}
+          label="Calender"
+          extraStyle={"mt-2"}
+          type="date"
+        />
+        <InputTextComp
+          image={<IoCallOutline />}
+          placeholder={"Enter Phone"}
+          label="Phone"
           extraStyle={"mt-2"}
         />
         <InputTextComp
-          image={<IoIosAirplane />}
-          placeholder={"Enter City"}
-          label="Departure"
-          extraStyle={"mt-2"}
-        />
-        <InputTextComp
-          image={<IoIosAirplane />}
-          placeholder={"Enter City"}
-          label="Departure"
-          extraStyle={"mt-2"}
-        />
-        <InputTextComp
-          image={<IoIosAirplane />}
-          placeholder={"Enter City"}
-          label="Departure"
+          image={<MdOutlineMail />}
+          placeholder={"Enter EMail"}
+          label="Email"
           extraStyle={"mt-2"}
         />
       </div>

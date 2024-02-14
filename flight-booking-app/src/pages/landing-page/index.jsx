@@ -12,7 +12,7 @@ export const LandingPage = () => {
       <ContactUs />
       <Header />
       <Services/>
-      {/* <LowestFare/> */}
+      <LowestFare/>
       <ProfessionalExp/>
       <Footer/>
     </div>

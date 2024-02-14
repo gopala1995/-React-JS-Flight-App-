@@ -1,17 +1,16 @@
 import React from "react";
-// import { LOWEST_FARE_LIST } from "../constants/AppConstants";
+import { LOWEST_FARE_LIST } from "../constants/ApiData";
 import { ButtonYellow } from "./ButtonYellow";
-
 
 export const LowestFare = () => {
   return (
-    <div className="relative h-[80%] px-20 py-20 bg-[#1a63a8]">
+    <div className="relative h-[60%] px-20 py-20 bg-[#1a63a8]">
       <p className="text-sm text-center text-white">CURRENT FARE</p>
       <p className="text-3xl mt-1 text-center text-white">
         Today's Lowest Fare
       </p>
       <div className="flex absolute bottom-[-100px] ml-[15%]">
-        {/* {LOWEST_FARE_LIST.map((item) => {
+        {LOWEST_FARE_LIST.map((item) => {
           return (
             <div
               key={`lowest-fare-${item.id}`}
@@ -29,7 +28,7 @@ export const LowestFare = () => {
               <ButtonYellow label={"CHECK OUT NOW"} extraStyle={"mt-5"} />
             </div>
           );
-        })} */}
+        })}
       </div>
     </div>
   );
