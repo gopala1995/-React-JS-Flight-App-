@@ -11,27 +11,27 @@ export const NavBar = () => {
         />
       </div>
       <div className="col-span-3 p-5 flex justify-center items-center">
-        <a href="index.html" className="ml-5">
+        <a href="" className="ml-5">
           <div className="hover:border-b-[2px] border-b-yellow-400 pb-2">
             <p className="text-white">HOME</p>
           </div>
         </a>
-        <a href="index.html" className="ml-5">
+        <a href="" className="ml-5">
           <div className="hover:border-b-[2px] border-b-yellow-400 pb-2">
             <p className="text-white">ABOUT US</p>
           </div>
         </a>
-        <a href="index.html" className="ml-5">
+        <a href="" className="ml-5">
           <div className="hover:border-b-[2px] border-b-yellow-400 pb-2">
             <p className="text-white">FLIGHT</p>
           </div>
         </a>
-        <a href="index.html" className="ml-5">
+        <a href="" className="ml-5">
           <div className="hover:border-b-[2px] border-b-yellow-400 pb-2">
             <p className="text-white">GET IN TOUCH</p>
           </div>
         </a>
-        <a href="index.html" className="ml-5">
+        <a href="" className="ml-5">
           <div className="py-2 px-5 border-[2px] border-white hover:border-yellow-400 pb-2">
             <p className="text-white">FIND FLIGHT</p>
           </div>

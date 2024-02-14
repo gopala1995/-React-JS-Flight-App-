@@ -1,4 +1,3 @@
-import React from "react";
 import flightImage from "../assets/flightImages.jpeg";
 import { NavBar } from "./navbar";
 import { ButtonYellow } from "./ButtonYellow";
@@ -34,8 +33,8 @@ export const Header = () => {
           </div>
         </div>
         <div className="flex">
-          {/* <FlightBookingForm /> */}
-          <FlightTable/>
+          <FlightBookingForm />
+          <FlightTable />
         </div>
       </div>
     </div>

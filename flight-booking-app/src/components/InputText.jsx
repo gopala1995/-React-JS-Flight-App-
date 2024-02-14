@@ -6,6 +6,7 @@ export const InputTextComp = ({
   label,
   extraStyle,
   type,
+  name
 }) => {
   return (
     <div className={`flex border border-gray-300 px-3 py-3 ${extraStyle}`}>
@@ -16,6 +17,7 @@ export const InputTextComp = ({
         type={type}
         className="ml-3 outline-none border-none text-sm w-full"
         placeholder={placeholder}
+        // name={name}
       />
       <p className="text-sm text-gray-300">{label}</p>
     </div>
