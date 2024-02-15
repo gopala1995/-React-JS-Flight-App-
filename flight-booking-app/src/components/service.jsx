@@ -1,5 +1,6 @@
 import React from "react";
 import CoinImage from "../assets/coin.png";
+import { FlightTable } from "./flightTable";
 
 export const Services = () => {
   const ServiceItems = () => {
@@ -32,6 +33,7 @@ export const Services = () => {
             </span>
           </p>
           <ServiceItems />
+         
         </div>
         <div>
           <div className="flex justify-between">
@@ -41,9 +43,11 @@ export const Services = () => {
           <div className="flex justify-between">
             <ServiceItems />
             <ServiceItems />
+            
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

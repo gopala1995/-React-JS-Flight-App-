@@ -13,7 +13,7 @@ export const Header = () => {
       }}
     >
       <NavBar />
-      <div className="h-[80%] grid grid-cols-2">
+      <div className="h-[80%] grid grid-cols-3">
         <div className="p-5 flex items-center">
           <div>
             <p className="text-white text-xl">FLYING BUDGET</p>
@@ -32,8 +32,10 @@ export const Header = () => {
             <ButtonYellow label={"FIND FLIGHT"} extraStyle={"flex mt-5"} />
           </div>
         </div>
-        <div className="flex">
+        <div className="">
           <FlightBookingForm />
+        </div>
+        <div className="text-center">
           <FlightTable />
         </div>
       </div>

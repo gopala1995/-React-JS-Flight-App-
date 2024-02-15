@@ -45,6 +45,7 @@ export const ProfessionalExp = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

@@ -24,7 +24,7 @@ export const FlightBookingForm = () => {
     e.preventDefault();
     console.log("Form data:", formData);
   };
-  
+
   return (
     <div className="bg-white pb-5 w-[22%] rounded-3xl absolute bottom-12 shadow shadow-gray-300">
       <div className="p-5">
@@ -134,7 +134,7 @@ export const FlightBookingForm = () => {
           </div>
         </div>
         <div className="px-5">
-          <div className="py-2 px-5 bg-yellow-400 text-sm mt-3">
+          <div className="py-2 px-5 bg-yellow-400 text-center text-sm mt-3">
             <button
               className="text-white text-center"
               type="submit"
